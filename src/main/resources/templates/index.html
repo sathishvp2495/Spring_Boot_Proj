@@ -60,9 +60,9 @@
 					         <div style="clear:both; display:block;height:10px;"></div>
 					         <input type="text" th:field="*{empDesignation}" class="form-control" placeholder="Employee Designation"/>
 					         <div style="clear:both; display:block;height:10px;"></div>
-					         <input type="text" th:field="*{empSalary}" class="form-control" placeholder="Employee Salary"/>
+					         <input type="number" pattern="[0-9]{10}" th:field="*{empSalary}" class="form-control" placeholder="Employee Salary"/>
 					         <div style="clear:both; display:block;height:10px;"></div>
-					         <input type="number" th:field="*{empAge}" class="form-control" placeholder="Employee Age"/>
+					         <input type="number" pattern="[0-9]{10} th:field="*{empAge}" class="form-control" placeholder="Employee Age"/>
 					         <div style="clear:both; display:block;height:10px;"></div>
 					         <input type="submit" class="btn btn-danger pull-right" value="Save">
 					       </form>
