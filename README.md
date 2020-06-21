@@ -1,4 +1,4 @@
-# SATHISH VP
+# SPRING TOOL SUITE
 
 1. mvn clean
 2. mvn install
