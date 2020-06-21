@@ -5,3 +5,5 @@
 3. run
 
 localhost:8080
+
+description : It's a simple CRUD operation project using spring-boot
